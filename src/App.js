@@ -3,13 +3,18 @@ import './App.css';
 import SayHello from './Componets/Greet';
 import Welcome from './Componets/Welcom';
 import Hello from './Componets/Hello';
+import Massage from './Componets/Massage'
 
 const App=()=> {
   return (
     <div className="App">
-      <SayHello />
+      {/* <SayHello name="Mohamed" >
+        <h2>You are so good</h2>
+      </SayHello>
       <Welcome />
-      <Hello/>
+      <Hello /> */}
+      
+      <Massage/>
 
     </div>
   );

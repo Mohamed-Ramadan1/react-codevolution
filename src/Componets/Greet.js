@@ -1,9 +1,12 @@
 import React from "react";
 
-let SayHello=()=>{
+let SayHello=(props)=>{
     return (
-        <div>hello world Now you are create your future</div>
+        <div>
+            <div>{`hello ${props.name}`}</div>
+            <div>{props.children}</div>
 
+        </div>
     );
 }
 
