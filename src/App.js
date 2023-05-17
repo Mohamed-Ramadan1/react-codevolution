@@ -14,8 +14,8 @@ const App=()=> {
       </SayHello>
       <Welcome />
       <Hello />
-      <Massage /> */}
-      <Counter/>
+      <Massage />
+      <Counter/> */}
       
 
     </div>

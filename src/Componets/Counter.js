@@ -11,17 +11,25 @@ class Counter extends Component {
 
 
     incressCounter() {
-        this.setState({
-            count:this.state.count+1,
-        })
+        this.setState((prevState) => ({
+            count: prevState.count + 1,
+        }))
     }
-    
+    incressFive() {
+        this.incressCounter();
+        this.incressCounter();
+        this.incressCounter();
+        this.incressCounter();
+        this.incressCounter();
+
+    }
 
     render() {
         return (
             <div>
                 <div>Count- {this.state.count}</div>
-                <button onClick={()=>this.incressCounter()}>Incress-Counter</button>
+                <button onClick={()=>this.incressFive()}>Incress-Counter</button>
+                
             </div>
         );
     }
