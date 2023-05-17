@@ -6,6 +6,7 @@ class MassageBinding extends Component {
         this.state={
             massage:"hello !"
         }
+        // this.changeMassage = this.changeMassage.bind(this);
 
     }
     // changeMassage() {
@@ -13,7 +14,7 @@ class MassageBinding extends Component {
 
     // }
 
-    changeMassage() {
+    changeMassage=()=> {
         this.setState({
             massage:"Good bay!"
         })
@@ -22,7 +23,7 @@ class MassageBinding extends Component {
         return (
             <div>
                 <h1>{this.state.massage} </h1>
-                <button onClick={this.changeMassage.bind(this)}>Click me to change thext</button>
+                <button onClick={this.changeMassage}>Click me to change thext</button>
             </div>
         )
     }
