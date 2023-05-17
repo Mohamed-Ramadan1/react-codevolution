@@ -8,6 +8,7 @@ import Counter from './Componets/Counter';
 import ChangeValue from './Componets/Setstae';
 import FunctionClick from './Componets/FunctionClick';
 import ClassClicked from './Componets/ClassClicked';
+import MassageBinding from './Componets/MassageComponent';
 
 const App=()=> {
   return (
@@ -22,8 +23,9 @@ const App=()=> {
       <ChangeValue/>
       <SayHello name="Mohamed" heroName="Wonder Woman"/>
       <Welcome name="Mohamed" heroName="Omare Ebn Elkhtap" />
-      <FunctionClick/> */}
-      <ClassClicked/>
+      <FunctionClick/>
+      <ClassClicked/> */}
+      <MassageBinding/>
 
 
 
