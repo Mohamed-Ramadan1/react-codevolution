@@ -1,10 +1,13 @@
 import React from "react";
 
-
+function clickHandeler() {
+    document.getElementById("button").innerHTML = "Your amazing you a good";
+    console.log("Button is Clicked sucssfuly")
+}
 const FunctionClick = () => {
     return (
         <div>
-            <button>Click</button>
+            <button id="button" onClick={clickHandeler}>Click</button>
         </div>
     )
 }
