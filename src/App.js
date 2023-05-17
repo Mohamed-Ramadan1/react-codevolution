@@ -11,6 +11,7 @@ import ClassClicked from './Componets/ClassClicked';
 import MassageBinding from './Componets/MassageComponent';
 import ParentComponent from './Componets/ParentComponent';
 import UserGreating from './Componets/UserGreating';
+import NameList from './Componets/NameList';
 
 const App=()=> {
   return (
@@ -28,8 +29,10 @@ const App=()=> {
     <FunctionClick/>
     <ClassClicked/>
     <MassageBinding/>
-    <ParentComponent/> */}
-      <UserGreating/>
+    <ParentComponent/>
+      <UserGreating/> */}
+
+      <NameList/>
     </div>
   );
 }
