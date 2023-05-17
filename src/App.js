@@ -10,28 +10,26 @@ import FunctionClick from './Componets/FunctionClick';
 import ClassClicked from './Componets/ClassClicked';
 import MassageBinding from './Componets/MassageComponent';
 import ParentComponent from './Componets/ParentComponent';
+import UserGreating from './Componets/UserGreating';
 
 const App=()=> {
   return (
     <div className="App">
-      {/* <SayHello name="Mohamed" >
-        <h2>You are so good</h2>
-      </SayHello>
-      <Welcome />
-      <Hello />
-      <Massage />
-      <Counter/>
-      <ChangeValue/>
-      <SayHello name="Mohamed" heroName="Wonder Woman"/>
-      <Welcome name="Mohamed" heroName="Omare Ebn Elkhtap" />
-      <FunctionClick/>
-      <ClassClicked/>
-      <MassageBinding/> */}
-
-      <ParentComponent/>
-
-
-
+    {/* <SayHello name="Mohamed" >
+      <h2>You are so good</h2>
+    </SayHello>
+    <Welcome />
+    <Hello />
+    <Massage />
+    <Counter/>
+    <ChangeValue/>
+    <SayHello name="Mohamed" heroName="Wonder Woman"/>
+    <Welcome name="Mohamed" heroName="Omare Ebn Elkhtap" />
+    <FunctionClick/>
+    <ClassClicked/>
+    <MassageBinding/>
+    <ParentComponent/> */}
+      <UserGreating/>
     </div>
   );
 }
