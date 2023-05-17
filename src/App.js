@@ -6,6 +6,7 @@ import Hello from './Componets/Hello';
 import Massage from './Componets/Massage';
 import Counter from './Componets/Counter';
 import ChangeValue from './Componets/Setstae';
+import FunctionClick from './Componets/FunctionClick';
 
 const App=()=> {
   return (
@@ -16,8 +17,14 @@ const App=()=> {
       <Welcome />
       <Hello />
       <Massage />
-      <Counter/> */}
+      <Counter/>
       <ChangeValue/>
+      <SayHello name="Mohamed" heroName="Wonder Woman"/>
+      <Welcome name="Mohamed" heroName="Omare Ebn Elkhtap" /> */}
+
+      <FunctionClick/>
+
+
 
     </div>
   );

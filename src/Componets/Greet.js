@@ -1,10 +1,11 @@
 import React from "react";
 
-let SayHello=(props)=>{
+let SayHello = (props) => {
+    const { name, heroName } = props;
     return (
         <div>
-            <div>{`hello ${props.name}`}</div>
-            <div>{props.children}</div>
+            <div>{`hello ${name}`}</div>
+            <div>{`The Hero Name is  "${heroName}"`}</div>
 
         </div>
     );
