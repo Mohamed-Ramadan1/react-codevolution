@@ -32,11 +32,8 @@ const NameList = () => {
             skills: "js"
         },
     ];
-    const mapedList = person.map(person => <Person person={ person} />)
+    const mapedList = person.map((person,index) => <Person key={index} person={person} />)
     
-
-
-
     return (
         <div>
             {

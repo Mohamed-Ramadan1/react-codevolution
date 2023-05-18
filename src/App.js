@@ -30,9 +30,8 @@ const App=()=> {
     <ClassClicked/>
     <MassageBinding/>
     <ParentComponent/>
-      <UserGreating/> */}
-
-      <NameList/>
+      <UserGreating/>
+      <NameList/> */}
     </div>
   );
 }
