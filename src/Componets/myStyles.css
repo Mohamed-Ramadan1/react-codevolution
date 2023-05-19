@@ -1,3 +1,11 @@
 .primary{
     color:orange;
 }
+
+.font-xl{
+    font-size: 30px;
+}
+
+.font-bold{
+    font-weight: italic;
+}

@@ -13,6 +13,7 @@ import ParentComponent from './Componets/ParentComponent';
 import UserGreating from './Componets/UserGreating';
 import NameList from './Componets/NameList';
 import StyleCheet from './Componets/StyleCheet';
+import Inline from './Componets/Inline';
 
 const App=()=> {
   return (
@@ -32,8 +33,10 @@ const App=()=> {
     <MassageBinding/>
     <ParentComponent/>
       <UserGreating/>
-      <NameList/> */}
-      <StyleCheet/>
+      <NameList/>
+      <StyleCheet /> */}
+      <Inline/>
+
     </div>
   );
 }
