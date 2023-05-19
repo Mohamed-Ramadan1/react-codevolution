@@ -12,6 +12,7 @@ import MassageBinding from './Componets/MassageComponent';
 import ParentComponent from './Componets/ParentComponent';
 import UserGreating from './Componets/UserGreating';
 import NameList from './Componets/NameList';
+import StyleCheet from './Componets/StyleCheet';
 
 const App=()=> {
   return (
@@ -32,6 +33,7 @@ const App=()=> {
     <ParentComponent/>
       <UserGreating/>
       <NameList/> */}
+      <StyleCheet/>
     </div>
   );
 }
