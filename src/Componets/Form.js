@@ -1,6 +1,6 @@
 import React from "react";
 
-class Form extends React.Component{
+class Form extends React.Component {
     
     constructor () {
         super();
@@ -8,7 +8,7 @@ class Form extends React.Component{
         this.state = {
             userName: "",
             comments: "",
-            topic:"react"
+            topic: "react"
         }
 
         this.handelUserNameChange = this.handelUserNameChange.bind(this);
@@ -22,19 +22,23 @@ class Form extends React.Component{
 
     handelTextArea = (event) => {
         this.setState({
-            comments:event.target.value
+            comments: event.target.value
         })
     }
 
-    handelTopicChange=(event)=>{
+    handelTopicChange = (event) => {
         this.setState({
             topic: event.target.value
         })
     }
+    handelSubmit = (event) => {
+        alert(`${this.state.comments} ${this.state.userName} ${this.state.topic}`)
+        
+    }
 
     render() {
         return (
-            <form>
+            <form onSubmit={this.handelSubmit}>
                 <div>
                     <label>UserName</label>
                     <input
@@ -56,6 +60,7 @@ class Form extends React.Component{
                         <option value="vue">Vue</option>
                     </select>
                 </div>
+                <button type="submit">Submit</button>
             </form>
         )
     }
