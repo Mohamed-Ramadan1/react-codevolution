@@ -1,4 +1,5 @@
 import React from "react";
+import LifeCycleB from "./LifeCycleB";
 
 class LifeCycleA extends React.Component{
     constructor () {
@@ -7,23 +8,24 @@ class LifeCycleA extends React.Component{
         this.state = {
             name:"mohamed"
         }
-        console.log("Constructore")
+        console.log("Constructore a")
     }
     
     static getDerivedStateFromProps(props, state) {
-        console.log("from static ")
+        console.log("from static a ")
         return null
     }
 
     componentDidMount() {
-        console.log("from didmount ")
+        console.log("from didmount a ")
     }
 
     render() {
-        console.log(" render mehtod")
+        console.log(" render mehtod a")
         return (
             <div>
-                The life cycle from the render
+                The life cycle from the render a
+                <LifeCycleB/>
             </div>
         )
     }
