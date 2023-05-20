@@ -14,28 +14,12 @@ import UserGreating from './Componets/UserGreating';
 import NameList from './Componets/NameList';
 import StyleCheet from './Componets/StyleCheet';
 import Inline from './Componets/Inline';
+import Form from './Componets/Form';
 
 const App=()=> {
   return (
     <div className="App">
-    {/* <SayHello name="Mohamed" >
-      <h2>You are so good</h2>
-    </SayHello>
-    <Welcome />
-    <Hello />
-    <Massage />
-    <Counter/>
-    <ChangeValue/>
-    <SayHello name="Mohamed" heroName="Wonder Woman"/>
-    <Welcome name="Mohamed" heroName="Omare Ebn Elkhtap" />
-    <FunctionClick/>
-    <ClassClicked/>
-    <MassageBinding/>
-    <ParentComponent/>
-      <UserGreating/>
-      <NameList/>
-      <StyleCheet /> */}
-      <Inline/>
+      <Form/>
 
     </div>
   );
