@@ -15,11 +15,12 @@ import NameList from './Componets/NameList';
 import StyleCheet from './Componets/StyleCheet';
 import Inline from './Componets/Inline';
 import Form from './Componets/Form';
+import LifeCycleA from './Componets/lifeCycleA';
 
 const App=()=> {
   return (
     <div className="App">
-      <Form/>
+      <LifeCycleA/>
 
     </div>
   );
