@@ -22,7 +22,6 @@ import Table from './Componets/Table';
 const App=()=> {
   return (
     <div className="App">
-      <Table/>
 
     </div>
   );
