@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
 class RegulerComp extends Component {
-render() {
+    render() {
+    console.log('Reguler component render')
     return (
         <div>
-            Regular Components
+            Regular Components {this.props.name}
     
         </div>
     )
