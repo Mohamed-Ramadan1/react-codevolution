@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ChiledComponent from "./ChiledCoponent";
+import ChiledComponent from "./1-25/ChiledCoponent";
 
 class ParentComponent extends Component{
     constructor () {
