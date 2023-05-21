@@ -16,11 +16,12 @@ import StyleCheet from './Componets/StyleCheet';
 import Inline from './Componets/Inline';
 import Form from './Componets/Form';
 import LifeCycleA from './Componets/lifeCycleA';
+import FragmentDemo from './Componets/FragmentDemo';
 
 const App=()=> {
   return (
     <div className="App">
-      <LifeCycleA/>
+      <FragmentDemo/>
 
     </div>
   );
