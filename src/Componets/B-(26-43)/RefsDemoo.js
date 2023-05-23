@@ -8,7 +8,7 @@ class RefsDemoo extends React.Component{
         this.re = null;
 
         this.setCre = (element) => {
-            this.re = element;
+            this.re = element;  
         }
     }
 
