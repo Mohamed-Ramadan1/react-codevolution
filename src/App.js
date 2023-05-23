@@ -10,7 +10,6 @@ import FRParentInput from './Componets/B-(26-43)/FRParentInput';
 const App=()=> {
   return (
     <div className="App">
-      <FRParentInput/> 
 
     </div>
   );
