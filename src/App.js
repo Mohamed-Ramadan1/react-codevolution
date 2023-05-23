@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import RefsDemo from './Componets/B-(26-43)/RefsDemo';
-import RefsDemoo from './Componets/B-(26-43)/RefsDemoo';
-import FocusComp from './Componets/B-(26-43)/FocusComp';
+import Inputs from './Componets/B-(26-43)/Inputs';
+import GodFather from './Componets/B-(26-43)/GodFather';
+
 
 
 
 const App=()=> {
   return (
     <div className="App">
-      <RefsDemoo/>
 
     </div>
   );
