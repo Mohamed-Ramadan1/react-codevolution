@@ -5,6 +5,11 @@ class RefsDemoo extends React.Component{
         super();
 
         this.inputReef = React.createRef();
+        this.re = null;
+
+        this.setCre = (element) => {
+            this.re = element;
+        }
     }
 
     componentDidMount() {
