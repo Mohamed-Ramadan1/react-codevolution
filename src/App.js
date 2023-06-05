@@ -1,10 +1,13 @@
 import './App.css';
-import ClickCounter from './Componets/B-(26-43)/ClickCounter';
-import HoverCounter from './Componets/B-(26-43)/HoverCounter';
+import Counter from './ReactHooks/Counter';
+import HookCounter from './ReactHooks/HookCounter';
+
 
 const App=()=> {
   return (
     <div className="App">
+      {/* <Counter /> */}
+      <HookCounter/>
 
   
     </div>
