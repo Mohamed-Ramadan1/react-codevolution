@@ -1,18 +1,13 @@
 import './App.css';
-import Counter from './ReactHooks/Counter';
-import HookCounter from './ReactHooks/HookCounter';
-import HooksCounterTow from './ReactHooks/HooksCounterTow';
+import Counter from './Componets/ReactHooks/Counter';
+import HookCounter from './Componets/ReactHooks/HookCounter';
 
 
 const App=()=> {
   return (
     <div className="App">
-
-
-      <HooksCounterTow/>
-
       
-  
+
     </div>
   );
 }
