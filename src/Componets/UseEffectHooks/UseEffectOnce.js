@@ -14,7 +14,7 @@ function UseEffectOnce() {
     },[])
     return (
         <div>
-            Hooks x-{ x} Y-{Y }
+            Hooks x-{ x} Y-{Y } v 
         </div>
     )
 }
