@@ -1,11 +1,11 @@
 import './App.css';
-import Counter from './Componets/ReactHooks/Counter';
-import HookCounter from './Componets/ReactHooks/HookCounter';
+import HookCounterOne from './Componets/UseEffectHooks/HookCounterOne';
 
 
 const App=()=> {
   return (
     <div className="App">
+      <HookCounterOne/>
       
 
     </div>
