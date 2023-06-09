@@ -1,12 +1,12 @@
 import './App.css';
-import DataFeatching from './Componets/UseEffectHooks/DataFetching';
+import ComponentC from './Componets/UseEffectHooks/ComponentC';
 
 
 
 const App=()=> {
   return (
     <div className="App">
-      <DataFeatching/>
+      <ComponentC/>
 
     </div>
   );
