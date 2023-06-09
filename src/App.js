@@ -1,12 +1,12 @@
 import './App.css';
-import HookCounterOne from './Componets/UseEffectHooks/HookCounterOne';
-import UseEffectOnce from './Componets/UseEffectHooks/UseEffectOnce';
+import DataFeatching from './Componets/UseEffectHooks/DataFetching';
+
 
 
 const App=()=> {
   return (
     <div className="App">
-      <UseEffectOnce/>
+      <DataFeatching/>
 
     </div>
   );
