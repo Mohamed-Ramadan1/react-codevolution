@@ -6,7 +6,7 @@ import UseReducer from './Componets/Reducer/UseReducer';
 const App=()=> {
   return (
     <div className="App">
-      <UseReducer/ >
+      <UseReducer/>
 
     </div>
   );

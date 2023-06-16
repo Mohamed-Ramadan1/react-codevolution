@@ -8,7 +8,7 @@ const reducer = (currentState, action) => {
         default: return currentState;
     }
 }
-const UseReducer = () => {
+const CounterTwo = () => {
     const [couner,dispatch]=useReducer(reducer, initValue);
     return (
         <div>
@@ -23,4 +23,4 @@ const UseReducer = () => {
     )
 }
 
-export default UseReducer
+export default CounterTwo
