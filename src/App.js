@@ -1,13 +1,12 @@
 import './App.css';
-import ComponentC from './Componets/ContextAPi/ComponentC.JS';
-import UseReducer from './Componets/Reducer/UseReducer';
+import ComponentCC from './Componets/ContextAPi/ComponentCC.JS';
 
 
   
 const App=()=> {
   return (
     <div className="App">
-      <ComponentC/>
+      <ComponentCC/>
 
 
     </div>
