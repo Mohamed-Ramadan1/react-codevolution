@@ -11,6 +11,7 @@ function NavBar() {
     <nav>
         <NavLink to='/' style={stylesLinjs}>Home</NavLink>
         <NavLink to='About' style={stylesLinjs}>About</NavLink>
+        <NavLink to='Products' style={stylesLinjs}>Products</NavLink>
     </nav>
   )
 }
