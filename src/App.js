@@ -6,7 +6,8 @@ import { Fragment } from "react";
 import OrderSummdry from "./Components/OrderSummry";
 import Nomatch from "./Components/Nomatch";
 import Product from "./Components/Product";
-
+import New from "./Components/New"; 
+import Featured from "./Components/Featured";
 const App=()=> {
   return (
     <div className="App">
@@ -16,8 +17,13 @@ const App=()=> {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path="about" element={ <About/>} />
-          <Route path="OrderSummry" element={ <OrderSummdry/>} />
-          <Route path="Product" element={ <Product/>} />
+          <Route path="OrderSummry" element={<OrderSummdry />} />
+          
+          <Route path="Product" element={<Product />} >
+            <Route path="new" element={ <New/>} />
+            <Route path="featured" element={ <Featured/>} />
+          </Route>
+          
           <Route path="*" element={ <Nomatch/>} />
         </Routes>
       </Fragment>
