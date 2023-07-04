@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar";
 import { Fragment } from "react";
 import OrderSummdry from "./Components/OrderSummry";
 import Nomatch from "./Components/Nomatch";
+import Product from "./Components/Product";
 
 const App=()=> {
   return (
@@ -16,6 +17,7 @@ const App=()=> {
           <Route path='/' element={<Home />}/>
           <Route path="about" element={ <About/>} />
           <Route path="OrderSummry" element={ <OrderSummdry/>} />
+          <Route path="Product" element={ <Product/>} />
           <Route path="*" element={ <Nomatch/>} />
         </Routes>
       </Fragment>
