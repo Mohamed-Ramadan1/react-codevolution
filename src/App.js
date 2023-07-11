@@ -12,6 +12,7 @@ import Contact from './pages/help/Contact';
 import NoteFound from "./pages/NoteFound";
 import CareersLayout from "./layouts/CareersLayout";
 import Careers from './pages/careers/Careers'
+import { careersLoader } from "./pages/careers/Careers";
 
 import RootLayOuts from "./layouts/RootLayOuts";
 import HelpLayOut from "./layouts/HelpLayOut";
