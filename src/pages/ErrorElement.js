@@ -1,12 +1,10 @@
 import React from 'react'
 
 function ErrorElement() {
-    
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+        </div>
+    )
 }
 
 export default ErrorElement

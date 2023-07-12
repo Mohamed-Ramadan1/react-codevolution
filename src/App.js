@@ -15,7 +15,7 @@ import Careers from './pages/careers/Careers'
 import { careersLoader } from "./pages/careers/Careers";
 
 import RootLayOuts from "./layouts/RootLayOuts";
-import HelpLayOut from "./layouts/HelpLayOut";
+// import HelpLayOut from "./layouts/HelpLayOut";
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<RootLayOuts />}>
